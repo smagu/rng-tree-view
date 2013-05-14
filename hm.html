@@ -1,0 +1,172 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+      <title>ECOTree Simple Tree 1</title><script type="text/javascript" src="ECOTree.js"></script><link type="text/css" rel="stylesheet" href="ECOTree.css">
+      <xml:namespace ns="urn:schemas-microsoft-com:vml" prefix="v"></xml:namespace><style>v\:*{ behavior:url(#default#VML);}</style><style>
+			.copy {
+				font-family : "Verdana";				
+				font-size : 10px;
+				color : #CCCCCC;
+			}
+		</style><script>
+			var myTree = null;
+			
+			function CreateTree() {
+				myTree = new ECOTree('myTree','myTreeContainer');
+                myTree.add("trainingDOC",-1,"trainingDOC");
+      myTree.add("core:head","trainingDOC","core:head");
+      
+    myTree.add("core:body","trainingDOC","core:body");
+      myTree.add("tr:ch","core:body","tr:ch");
+  
+    myTree.add("training:appendix","core:body","training:appendix");
+    
+      myTree.add("core:title",-1,"core:title");
+      
+      
+    myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    myTree.add("core:comment",-1,"core:comment");
+      
+    
+      myTree.add("table",-1,"table");
+      
+      
+      myTree.add("core:caption",-1,"core:caption");
+      
+      myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    
+    
+      myTree.add("tgroup",-1,"tgroup");
+      
+      myTree.add("colspec",-1,"colspec");
+      
+      
+    
+      myTree.add("thead",-1,"thead");
+      
+      myTree.add("row",-1,"row");
+      
+      myTree.add("entry",-1,"entry");
+      
+      myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    myTree.add("core:equation",-1,"core:equation");
+      
+    myTree.add("core:figure",-1,"core:figure");
+      
+      myTree.add("core:caption",-1,"core:caption");
+      
+      myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    
+    
+      myTree.add("core:graphic","core:figure","core:graphic");
+      
+      myTree.add("core:image",-1,"core:image");
+      
+      myTree.add("core:ext-obj","core:image","core:ext-obj");
+      
+      
+    
+    
+    
+    
+    
+    
+    
+      myTree.add("tbody","tgroup","tbody");
+      
+      myTree.add("row",-1,"row");
+      
+      myTree.add("entry",-1,"entry");
+      
+      myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    myTree.add("core:equation",-1,"core:equation");
+      
+    myTree.add("core:figure",-1,"core:figure");
+      
+      myTree.add("core:caption",-1,"core:caption");
+      
+      myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    
+    
+      myTree.add("core:graphic","core:figure","core:graphic");
+      
+      myTree.add("core:image",-1,"core:image");
+      
+      myTree.add("core:ext-obj","core:image","core:ext-obj");
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+      myTree.add("core:caption",-1,"core:caption");
+      
+      myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    
+    
+    myTree.add("core:figure",-1,"core:figure");
+      
+      myTree.add("core:caption",-1,"core:caption");
+      
+      myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    
+    
+      myTree.add("core:graphic","core:figure","core:graphic");
+      
+      myTree.add("core:image",-1,"core:image");
+      
+      myTree.add("core:ext-obj","core:image","core:ext-obj");
+      
+      
+    
+    
+    
+    myTree.add("core:generic-hd",-1,"core:generic-hd");
+      
+      
+      
+    myTree.add("core:title",-1,"core:title");
+      
+      
+    
+    
+    
+    
+    
+				myTree.UpdateTree();
+			}			
+		</script></head>
+   <body onload="CreateTree();">
+      <h4>ECOTree Simple Tree 1<span class="copy">2006 Emilio Cortegoso Lobato</span></h4>
+      <div id="myTreeContainer"></div>
+   </body>
+</html>
